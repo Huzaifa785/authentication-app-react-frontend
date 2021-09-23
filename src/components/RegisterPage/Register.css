@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: url("https://medlininc.com/wp-content/uploads/2018/09/iStock-939184094.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+input{
+    width: 97%;
+    outline: none;
+    border: 1.5px solid #A1D6F8;
+    opacity: 0.6;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 4px;
+    text-align: center;
+}
+
+.register-btn{
+    background: transparent;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;  
+    font-weight: bolder; 
+}
+
+.register-btn:hover{
+    background: #A1D6F8;
+    transition: all 0.3s;
+}
+
+p{
+    color: gray;
+    font-size: 13px;
+}
+
+a{
+    color: crimson;
+}
+
+.help-links{
+    margin-top: 10px;
+}
